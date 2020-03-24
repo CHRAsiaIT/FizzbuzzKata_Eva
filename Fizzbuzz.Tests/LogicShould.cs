@@ -56,5 +56,19 @@ namespace Fizzbuzz.Tests
             var input = 15;
             input.ToFizzbuzz().ShouldBe(Logic.FizzBuzz);
         }
+
+        [TestMethod]
+        public void When_Input30_ShouldReturnFizzBuzz()
+        {
+            var input = 30;
+            input.ToFizzbuzz().ShouldBe(Logic.FizzBuzz);
+        }
+
+        [TestMethod]
+        public void When_Input9_ShouldReturnFizz()
+        {
+            var input = 9;
+            input.ToFizzbuzz().ShouldBe(Logic.Fizz);
+        }
     }
 }
