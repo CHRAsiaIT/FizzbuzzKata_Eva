@@ -1,5 +1,4 @@
-﻿using System;
-using Fizzbuzz.Kata;
+﻿using Fizzbuzz.Kata;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Shouldly;
 
